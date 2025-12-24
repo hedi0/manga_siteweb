@@ -10,8 +10,7 @@ A dynamic web platform built with PHP, HTML, CSS, and JavaScript, offering a sea
 
 <!-- Project Preview Image -->
 
-
-![Manga Website]([profile_preview.png])
+![Manga Website](/profile_preview.png)
 
 *A glimpse into the manga_siteweb platform.*
 
