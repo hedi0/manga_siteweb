@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Reviews | Manga Platform</title>
+    <style>
+        /* === Global Styles === */
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Movies', sans-serif;
+        }
+        
+        body {
+            background-color: #0b0a0a;
+            color: white;
+            min-height: 100vh;
+            padding-top: 80px; /* For fixed nav */
+        }
+        
+        /* === Navigation === */
+        .Nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 30px;
+            background-color: black;
+            color: red;
+            height: 60px;
+            border-bottom: 1px solid #e60e19;
+        }
+        
+        .Nav h2 {
+            cursor: pointer;
+            margin-left: 10%;
+            color: #e60e19;
+        }
+        
+        .ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            width: 30%;
+            margin-right: -30%;
+            color: white;
+            font-weight: bold;
+            margin-top: 7px;
+            cursor: pointer;
+        }
+        
+        .ul li:hover {
+            color: red;
+            transition: .3s;
+        }
+        
+        .button1 {
+            border: none;
+            background: red;
+            padding: 12px 30px;
+            border-radius: 30px;
+            color: white;
+            font-size: 15px;
+            transition: .4s;
+        }
+        
+        .button1:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        
+        /* === Main Container === */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .page-title {
+            color: #e60e19;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        
+        /* === Review Sections === */
+        .review-section {
+            margin-bottom: 50px;
+        }
+        
+        .section-title {
+            color: #e60e19;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #e60e19;
+            padding-bottom: 10px;
+        }
+        
+        /* === Featured Review === */
+        .featured-review {
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 1px solid #333;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .featured-manga {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .featured-cover {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
+            border: 2px solid #e60e19;
+        }
+        
+        .featured-details {
+            flex: 1;
+        }
+        
+        .featured-title {
+            color: #e60e19;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .featured-meta {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            color: #aaa;
+        }
+        
+        .featured-rating {
+            color: gold;
+            font-size: 1.2rem;
+        }
+        
+        .featured-reviewer {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .reviewer-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+        .reviewer-name {
+            color: #e60e19;
+            font-weight: bold;
+        }
+        
+        .review-content {
+            line-height: 1.6;
+            color: #ddd;
+        }
+        
+        .read-more {
+            color: #e60e19;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        
+        .read-more:hover {
+            text-decoration: underline;
+        }
+        
+        /* === Review Grid === */
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+        }
+        
+        .review-card {
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid #333;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .review-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+            border-color: #e60e19;
+        }
+        
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+        
+        .review-manga {
+            font-size: 1.2rem;
+            color: #e60e19;
+            font-weight: bold;
+        }
+        
+        .review-rating {
+            color: gold;
+        }
+        
+        .review-excerpt {
+            color: #ccc;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        
+        .review-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+        
+        /* === Review Form === */
+        .review-form {
+            background-color: #1a1a1a;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 40px;
+            border: 1px solid #333;
+        }
+        
+        .form-title {
+            color: #e60e19;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            color: #e60e19;
+            font-weight: bold;
+        }
+        
+        .form-input, .form-select, .form-textarea {
+            width: 100%;
+            padding: 12px;
+            background-color: #2a2a2a;
+            border: 1px solid #444;
+            border-radius: 5px;
+            color: white;
+            font-size: 1rem;
+        }
+        
+        .form-textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .form-input:focus, .form-select:focus, .form-textarea:focus {
+            outline: none;
+            border-color: #e60e19;
+            box-shadow: 0 0 0 2px rgba(230, 14, 25, 0.3);
+        }
+        
+        .submit-btn {
+            background-color: #e60e19;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background-color: #c00c16;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        /* === Responsive Design === */
+        @media (max-width: 900px) {
+            .featured-manga {
+                flex-direction: column;
+            }
+            
+            .featured-cover {
+                width: 100%;
+                height: auto;
+                max-height: 400px;
+            }
+            
+            .review-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .Nav {
+                padding: 10px 15px;
+            }
+            
+            .Nav h2 {
+                margin-left: 5%;
+            }
+            
+            .ul {
+                width: 50%;
+                margin-right: 0;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+        }
+        .success-message {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(76, 175, 80, 0.1);
+    border-radius: 5px;
+}
+
+.error-message {
+    color: #f44336;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(244, 67, 54, 0.1);
+    border-radius: 5px;
+}
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="Nav">
+        <h2 onclick="navigateTo('homePage.html')">Manga</h2>
+        <ul class="ul link-offset">
+            <li onclick="navigateTo('homePage.html')">Home</li>
+            <li onclick="navigateTo('Manga.html')">All Manga</li>
+            <li onclick="navigateTo('latest.html')">Latest</li>
+            <li onclick="navigateTo('contact.php')">Contact</li>
+            <li onclick="navigateTo('Profile.php')">Profile</li>
+        </ul>
+        <form action="logout.php" method="post" style="display: inline;">
+            <button type="submit" class="button1">Log Out</button>
+        </form>
+    </nav>
+    
+    <!-- Main Content -->
+    <div class="container">
+        <h1 class="page-title">Manga Reviews</h1>
+        
+        <!-- Featured Review Section -->
+        <section class="review-section">
+            <h2 class="section-title">Featured Review</h2>
+            <div class="featured-review">
+                <div class="featured-manga">
+                    <img src="Berserk.jpg" alt="Berserk Cover" class="featured-cover">
+                    <div class="featured-details">
+                        <h3 class="featured-title">Berserk</h3>
+                        <div class="featured-meta">
+                            <span>By Kentaro Miura</span>
+                            <span>Dark Fantasy</span>
+                            <span class="featured-rating">★★★★★</span>
+                        </div>
+                        <div class="featured-reviewer">
+                            <img src="GutsLover.jpg" alt="Reviewer" class="reviewer-avatar">
+                            <span class="reviewer-name">GutsLover42</span>
+                        </div>
+                        <div class="review-content">
+                            <p>"Berserk is a masterpiece of dark fantasy that redefines the genre. Kentaro Miura's artwork is breathtakingly detailed, and the story of Guts' struggle against fate is both harrowing and inspiring. The Golden Age arc alone makes this one of the greatest manga of all time."</p>
+                            <p>The character development is phenomenal, with even side characters getting deep backstories. The Eclipse will haunt you forever - in the best way possible.</p>
+                        </div>
+                        <a href="#" class="read-more">Read full review →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Latest Reviews Section -->
+        <section class="review-section">
+            <h2 class="section-title">Latest Reviews</h2>
+            <div class="review-grid">
+                <!-- Review Card 1 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-manga">One Piece</span>
+                        <span class="review-rating">★★★★☆</span>
+                    </div>
+                    <p class="review-excerpt">"Eiichiro Oda's world-building is unparalleled. After 1000+ chapters, it still feels fresh and exciting. The Wano arc has been particularly stunning..."</p>
+                    <div class="review-footer">
+                        <span>By PirateKing99</span>
+                        <span>2 days ago</span>
+                    </div>
+                </div>
+                
+                <!-- Review Card 2 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-manga">Chainsaw Man</span>
+                        <span class="review-rating">★★★★★</span>
+                    </div>
+                    <p class="review-excerpt">"Tatsuki Fujimoto delivers a wild ride that blends horror, comedy, and action perfectly. Denji is one of the most unique shonen protagonists..."</p>
+                    <div class="review-footer">
+                        <span>By ChainsawFan</span>
+                        <span>1 week ago</span>
+                    </div>
+                </div>
+                
+                <!-- Review Card 3 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-manga">Vinland Saga</span>
+                        <span class="review-rating">★★★★★</span>
+                    </div>
+                    <p class="review-excerpt">"The Farmland Saga arc is one of the most profound character transformations in manga history. Makoto Yukimura's art and storytelling..."</p>
+                    <div class="review-footer">
+                        <span>By VikingScholar</span>
+                        <span>2 weeks ago</span>
+                    </div>
+                </div>
+                
+                <!-- Review Card 4 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-manga">Jujutsu Kaisen</span>
+                        <span class="review-rating">★★★★☆</span>
+                    </div>
+                    <p class="review-excerpt">"Gege Akutami's battle system is incredibly creative. The Shibuya Incident arc was non-stop intensity with game-changing consequences..."</p>
+                    <div class="review-footer">
+                        <span>By SorcererPro</span>
+                        <span>3 weeks ago</span>
+                    </div>
+                </div>
+                
+                <!-- Review Card 5 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-manga">Monster</span>
+                        <span class="review-rating">★★★★★</span>
+                    </div>
+                    <p class="review-excerpt">"Naoki Urasawa's psychological thriller is a masterpiece of suspense. Johan Liebert is one of the most chilling villains in manga..."</p>
+                    <div class="review-footer">
+                        <span>By ThrillerFan</span>
+                        <span>1 month ago</span>
+                    </div>
+                </div>
+                
+                <!-- Review Card 6 -->
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-manga">Kingdom</span>
+                        <span class="review-rating">★★★★★</span>
+                    </div>
+                    <p class="review-excerpt">"The best war manga ever created. The Coalition Army arc is possibly the greatest battle sequence in manga history. Xin's growth from..."</p>
+                    <div class="review-footer">
+                        <span>By WarHistorian</span>
+                        <span>1 month ago</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Submit Review Form (for logged in users) -->
+        <!-- Change the form section to this: -->
+<section class="review-section">
+    <h2 class="section-title">Submit Your Review</h2>
+    <div class="review-form">
+        <h3 class="form-title">Share Your Thoughts</h3>
+        <form action="Review_submit.php" method="post">
+            <div class="form-group">
+                <label for="manga-title" class="form-label">Manga Title</label>
+                <input type="text" id="manga-title" name="manga_title" class="form-input" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="manga-author" class="form-label">Author</label>
+                <input type="text" id="manga-author" name="manga_author" class="form-input" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="manga-rating" class="form-label">Rating</label>
+                <select id="manga-rating" name="rating" class="form-select" required>
+                    <option value="">Select rating</option>
+                    <option value="5">★★★★★ - Masterpiece</option>
+                    <option value="4">★★★★☆ - Excellent</option>
+                    <option value="3">★★★☆☆ - Good</option>
+                    <option value="2">★★☆☆☆ - Average</option>
+                    <option value="1">★☆☆☆☆ - Poor</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="review-content" class="form-label">Your Review</label>
+                <textarea id="review-content" name="content" class="form-textarea" required minlength="50"></textarea>
+            </div>
+            
+            <?php if (isset($_SESSION['Iduser'])): ?>
+                <input type="hidden" name="user_id" value="<?php echo $_SESSION['Iduser']; ?>">
+            <?php endif; ?>
+            
+            <button type="submit" class="submit-btn">Submit Review</button>
+        </form>
+    </div>
+</section>
+    </div>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+        
+        // Simple form validation
+        document.querySelector('.review-form form').addEventListener('submit', function(e) {
+            const title = document.getElementById('manga-title').value;
+            const rating = document.getElementById('manga-rating').value;
+            const content = document.getElementById('review-content').value;
+            
+            if (!title || !rating || !content) {
+                e.preventDefault();
+                alert('Please fill in all fields before submitting your review.');
+                return false;
+            }
+            
+            if (content.length < 50) {
+                e.preventDefault();
+                alert('Your review should be at least 50 characters long.');
+                return false;
+            }
+            
+            // In a real app, you would submit to server here
+            alert('Thank you for your review! (This is a demo - review not actually saved)');
+            return false;
+        });
+    </script>
+</body>
+</html>
