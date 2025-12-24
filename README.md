@@ -9,7 +9,10 @@ A dynamic web platform built with PHP, HTML, CSS, and JavaScript, offering a sea
 ![Forks](https://img.shields.io/github/forks/hedi0/manga_siteweb?style=social)
 
 <!-- Project Preview Image -->
-![Project Preview]([profile_preview.png])
+
+
+![Manga Website]([profile_preview.png])
+
 *A glimpse into the manga_siteweb platform.*
 
 ## ✨ Features
