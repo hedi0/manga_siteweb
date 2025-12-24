@@ -1,4 +1,4 @@
-# 📖 manga_siteweb: Your Ultimate Online Manga Reading Experience
+# 📖 Manga Website : Your Ultimate Online Manga Reading Experience
 
 A dynamic web platform built with PHP, HTML, CSS, and JavaScript, offering a seamless experience for browsing, reading, and interacting with your favorite manga series.
 
