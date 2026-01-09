@@ -11,7 +11,7 @@ $userId = $_SESSION['user_id'];
 $error = '';
 $success = '';
 
-// Fetch current user data
+//Fetch current user data
 try {
     $stmt = $conn->prepare("SELECT NameUser, EmailUser, Photo_profile FROM user WHERE Iduser = ?");
     $stmt->bind_param("i", $userId);
@@ -341,4 +341,5 @@ $conn->close();
         });
     </script>
 </body>
+
 </html>
