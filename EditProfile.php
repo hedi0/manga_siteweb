@@ -23,7 +23,7 @@ try {
     $error = "Error fetching user data: " . $e->getMessage();
 }
 
-// Handle form submission
+//Handle form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = trim($_POST['name']);
     $email = trim($_POST['email']);
@@ -343,3 +343,4 @@ $conn->close();
 </body>
 
 </html>
+
