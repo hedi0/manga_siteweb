@@ -180,8 +180,6 @@ Please use descriptive branch names based on the type of change:
 
 ### Testing Requirements
 
-*   Before submitting a PR,  your changes have been thoroughly tested locally.
-*   For new features, provide steps to manually test the functionality.
-*   For bug fixes, describe the steps to reproduce the bug and confirm its resolution.
-
-## 📜 License Info
+*   Before submitting, changes have been tested locally.
+*   For new features, steps to test the functionality.
+*   For bug fixes, steps to reproduce the resolution.
