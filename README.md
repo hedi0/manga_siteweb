@@ -164,26 +164,26 @@ We welcome contributions to `manga_siteweb`! Please follow these guidelines to e
 
 Please use descriptive branch names based on the type of change:
 
-*   `feature/your-feature-name` (e.g., `feature/user-bookmarks`)
-*   `bugfix/issue-description` (e.g., `bugfix/login-error`)
-*   `refactor/area-of-refactor` (e.g., `refactor/db-connection`)
+*   `feature/youeature-e` (e.g., `feature/user-bookmarks`)
+*   `bugfix/issue-deption` (e.g., `bugfix/login-error`)
+*   `refactor/area-of-actor` (e.g., `refactor/db-connection`)
 *   `docs/documentation-update`
 
 ### Pull Request Process
 
-1.  Fork the repository and create your feature branch from `main`.
-2.  Ensure your code adheres to the established code style.
-3.  Write clear, concise commit messages.
-4.  Submit a Pull Request (PR) to the `main` branch of the original repository.
-5.  Provide a detailed description of your changes in the PR, including any relevant issue numbers.
-6.  Be responsive to feedback during the review process.
+1.  Fork your feature branch from `main`.
+2.  Ensure your codeadheres to the established code style.
+3.  Write clear,  commit .
+4.  Submit a Pull  (PR) to the `main` branch of  original repository.
+5.  Provide a detailed  of your changes in the PR,  any relevant issue numbers.
+6.  Be responsive to  during the  process.
 
 ### Testing Requirements
 
-*   Before submitting a PR, ensure your changes have been thoroughly tested locally.
+*   Before submitting a PR,  your changes have been thoroughly tested locally.
 *   For new features, provide steps to manually test the functionality.
 *   For bug fixes, describe the steps to reproduce the bug and confirm its resolution.
 
 ## 📜 License Information
 
-This project is currently **Unlicensed**. This means you are not granted permission to use, copy, modify, distribute, or sublicense this software. If you wish
+This project is currently **Unlicensed**. This   are not granted permission to use, copy, modif
