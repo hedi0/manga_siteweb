@@ -186,7 +186,4 @@ Please use descriptive branch names based on the type of change:
 
 ## 📜 License Information
 
-This project is currently **Unlicensed**. This means you are not granted permission to use, copy, modify, distribute, or sublicense this software. If you wish to use this project, please contact the main contributor.
-
----
-© 2023 hedi0. All rights reserved.
+This project is currently **Unlicensed**. This means you are not granted permission to use, copy, modify, distribute, or sublicense this software. If you wish
