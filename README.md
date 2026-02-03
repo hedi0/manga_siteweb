@@ -184,6 +184,4 @@ Please use descriptive branch names based on the type of change:
 *   For new features, provide steps to manually test the functionality.
 *   For bug fixes, describe the steps to reproduce the bug and confirm its resolution.
 
-## 📜 License Information
-
-This project is currently **Unlicensed**. This   are not granted permission to use, copy, modif
+## 📜 License Info
