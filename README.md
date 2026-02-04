@@ -171,5 +171,4 @@ Please use descriptive branch names based on the type of change:
 1.  Fork your feature branch from `main`.
 2.  Ensure your codeadheres to the established code style.
 3.  Write clear,  commit .
-4.  Submit a Pull  (PR) to the `main` branch of  original repository.
-5.  Provide a detailed  o
+4.  Submit a Pull  (PR) to the `main` branch of  original r
