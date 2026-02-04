@@ -178,6 +178,4 @@ Please use descriptive branch names based on the type of change:
 5.  Provide a detailed  of your changes in the PR,  any relevant issue numbers.
 6.  Be responsive to  during the  process.
 
-### Testing Requirements
-
-*   Before submitting, c
+### Testing Requirem
