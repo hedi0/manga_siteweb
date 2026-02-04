@@ -172,5 +172,4 @@ Please use descriptive branch names based on the type of change:
 2.  Ensure your codeadheres to the established code style.
 3.  Write clear,  commit .
 4.  Submit a Pull  (PR) to the `main` branch of  original repository.
-5.  Provide a detailed  of your changes in the PR,  any relevant issue numbers.
-6.  Be responsive t
+5.  Provide a detailed  of your changes in the PR,  any relev
