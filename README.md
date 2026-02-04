@@ -182,4 +182,4 @@ Please use descriptive branch names based on the type of change:
 
 *   Before submitting, changes have been tested locally.
 *   For new features, steps to test the functionality.
-*   For bug fixes, steps to reproduce the resolution.
+*   For bug fixes, steps t
