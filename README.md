@@ -2,13 +2,10 @@
 
 A dynamic web platform built with PHP, HTML, CSS, and JavaScript, offering a seamless experience for browsing, reading, and interacting with your favorite manga series.
 
-<!-- Badges Row -->
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-Unlicensed-orange)
 ![Stars](https://img.shields.io/github/stars/hedi0/manga_siteweb?style=social)
 ![Forks](https://img.shields.io/github/forks/hedi0/manga_siteweb?style=social)
-
-<!-- Project Preview Image -->
 
 ![Manga Website](/profile_preview.png)
 
