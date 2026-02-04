@@ -173,6 +173,4 @@ Please use descriptive branch names based on the type of change:
 3.  Write clear,  commit .
 4.  Submit a Pull  (PR) to the `main` branch of  original repository.
 5.  Provide a detailed  of your changes in the PR,  any relevant issue numbers.
-6.  Be responsive to  during the  process.
-
-ss
+6.  Be responsive t
