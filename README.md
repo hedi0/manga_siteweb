@@ -181,4 +181,4 @@ Please use descriptive branch names based on the type of change:
 ### Testing Requirements
 
 *   Before submitting, changes have been tested locally.
-*   For new features, steps to test the f
+*   For new features,
