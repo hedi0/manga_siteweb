@@ -158,12 +158,12 @@ We welcome contributions to `manga_siteweb`! Please follow these guidelines to e
 *   Ensure consistent indentation (4 spaces fo2 spaces for HTML/CSS/JS).
 
 ### Branch Naming Conventi
-Please use desctive es based on the type of chgte
-*   `feature/yoature-e` (e.g., `feature/user-bookmarks`)
+Please use desgyuvyhjks based on the type of chgte
+*   `feature/yoatur (e.g., `feature/user-bookmarks`)
 *   `bugfix/isjhvjbsue-deption` (e.g., `bugfix/login-
-*   `refac-of-actor` (e.gactor/db-nnectio
-*   `docs/documation-update`
+*   `refac-of-act (e.gactor/db-nnectio
+*   `docs/docuon-update`
 
 ### Pull Reque
 1. khbhbanch from `ma
-2.  Ense your co
+2.  Eyour co
