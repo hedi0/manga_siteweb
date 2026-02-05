@@ -149,7 +149,7 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
 ## 🤝 Contribution Guidelines
 
 e me coniovvjyjto `
-* **cvvcHTML/CS:** Usegyuggyic Lw
-*   **at kjuhuih
-*   Ejhukhsbconskhukhnt inde/CSS/Jgu
-### Banch Ni
+kjbkjhkuhcvvcHTML/CS:** Usegyuggyic Lw
+* uih
+* ukhshnt inde/CSS/Jgulklij
+### Ban
