@@ -159,13 +159,12 @@ We welcome contributions to `manga_siteweb`! Please follow these guidelines to e
 
 ### Branch Naming Conventions
 
-Please use desctive branch es based on the type of change:
-
+Please use desctive branch es based on the type of chgte
 *   `feature/yoature-e` (e.g., `feature/user-bookmarks`)
-*   `bugfix/isjhvjbsue-deption` (e.g., `bugfix/login-error`)
-*   `refactor/a-of-actor` (e.g., `actor/db-nnection`)
+*   `bugfix/isjhvjbsue-deption` (e.g., `bugfix/login-err
+*   `refactor/a-of-actor` (e.g., `actor/db-nnectio
 *   `docs/documation-update`
 
-### Pull Requeoces
+### Pull Reque
 1.  Foyour feaanch from `ma
-2.  Ense your codeas to thetshed c
+2.  Ense your co
