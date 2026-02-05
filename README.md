@@ -148,10 +148,10 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
 
 ## 🤝 Contribution Guidelines
 
-e me coniovvjyjto `mangahhkhk
-fdbc  bcv**PHP: Ad
-* **cvvcHTML/CS:** Usegyuggyic L5, wexygygy w
+e me coniovvjyjto `m
+fdbc  b
+* **cvvcHTML/CS:** Usegyuggyic Lw
 *   **Jat
-*   Ensure cbconskhukhnt indentationpaceghf/CSS/Jgu
+*   Ensure cbconskhukhnt inde/CSS/Jgu
 ### Banch Niv
- (`feature/uhfdhdhghgfhf
+ (`featurtfytfy
