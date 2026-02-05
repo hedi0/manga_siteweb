@@ -148,12 +148,12 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
 
 ## 🤝 Contribution Guidelines
 
-e welcome contributions to `manga_siteweb`! Pherteredfeollow these guidelines to ensure a smooth collaboration procef
+e me conions to `manga_siteweb`! dfeollow these guidelines to ensure a smo collration procef
 ##fdbb# Code Styl
-fdbc  bcv**PHP: Adhere to PSR-12 codujhuihuuutdhkjkjuuide.
+fdbc  bcv**PHP: Adhere to PSRjhuihuuutdhkjkjuuide.
 * **cvvcHTML/CS:** Usegyuggyic L5, well-orgg Centsgyggjlock Elemenifier) methodology where appropriate.
 *   **JavacvbScript:** Follow aScrjbgiipt St$$dfd
-*   Ensure cbconsistent indentationpaceghfds for HTML/CSS/J
+*   Ensure cbconsistent indentationpaceghfds for HTML/CSS/Jguhgiuhih
 ### Banch Nivcbc
 **
 vng ConventiPedekgfyuvyhjs bthe type of chgteture/oatur (eb.g., `feature/uhuhukookmark`
