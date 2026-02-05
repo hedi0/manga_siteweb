@@ -168,6 +168,6 @@ Please use descriptive branch names based on the type of change:
 
 ### Pull Request Process
 
-1.  Fork your feature branch from `ma
-2.  Ensure your codeadheres to thetablished c
-3.  Wri
+1.  Foyour featuranch from `ma
+2.  Ense your codeadheres to thetshed c
+3.  W
