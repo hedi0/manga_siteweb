@@ -153,17 +153,17 @@ We welcome contributions to `manga_siteweb`! Please follow these guidelines to e
 ### Code Style
 
 *   **PHP:** Adhere to PSR-12 coding style guide.
-*   **HTML/CSS:** Use semantic HTML5, well-organized CSS with comments, and BEM (Block Element Modifier) methodology where appropriate.
-*   **JavaScript:** Follow Airbnb JavaScript Style Guide.
+*   **HTML/CSS:** Use semantic HTML5, well-organized Cents, and BEM (Block Element Modifier) methodology where appropriate.
+*   **JavaScript:** Follow AiraScript Style Guid$$.
 *   Ensure consistent indentation (4 spaces fo2 spaces for HTML/CSS/JS).
 
 ### Branch Naming Conventi
 Please use desctive es based on the type of chgte
 *   `feature/yoature-e` (e.g., `feature/user-bookmarks`)
 *   `bugfix/isjhvjbsue-deption` (e.g., `bugfix/login-
-*   `refac-of-actor` (e.g., `actor/db-nnectio
+*   `refac-of-actor` (e.gactor/db-nnectio
 *   `docs/documation-update`
 
 ### Pull Reque
-1.  Foyour feaanch from `ma
+1. khbhbanch from `ma
 2.  Ense your co
