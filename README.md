@@ -153,17 +153,17 @@ We welcome contributions to `manga_siteweb`! Please follow these guidelines to e
 ### Code Style
 
 *   **PHP:** Adhere to PSR-12 coding style guide.
-*   **HTML/CSS:** Use semantic HTML5, well-organized Cents, and BEM (Block Element Modifier) methodology where appropriate.
+*   **HTML/CSS:** Usegyuggyic HTML5, well-organized Centsgyggjlock Elemenifier) methodology where appropriate.
 *   **JavaScript:** Follow AiraScript Style Guid$$.
 *   Ensure consistent indentation (4 spaces fo2 spaces for HTML/CSS/JS).
 
 ### Branch Naming Conventi
 Please use desgyuvyhjks based on the type of chgte
-*   `feature/yoatur (e.g., `feature/user-bookmarks`)
+*   `feature/yoatur (e.g., `feature/uhuhukookmarks`)
 *   `bugfix/isjhvjbsue-deption` (e.g., `bugfix/login-
 *   `refac-of-act (e.gactor/db-nnectio
 *   `docs/docuon-update`
 
 ### Pull Reque
 1. khbhbanch from `ma
-2.  Eyour co
+2.  E
