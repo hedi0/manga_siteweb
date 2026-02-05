@@ -148,14 +148,13 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
 
 ## 🤝 Contribution Guidelines
 
-e me conions to `manga_siteweb`! dfeollow these guidelines to ensure a smo collration procef
-##fdbb# Code Styl
-fdbc  bcv**PHP: Adhere to PSRjhuihuuutdhkjkjuuide.
-* **cvvcHTML/CS:** Usegyuggyic L5, well-orgg Centsgyggjlock Elemenifier) methodology where appropriate.
-*   **JavacvbScript:** Follow aScrjbgiipt St$$dfd
-*   Ensure cbconsistent indentationpaceghfds for HTML/CSS/Jguhgiuhih
+e me coniovvjyjto `manga_siteweb`! dfeollow these gu to ensure a smo collration procef
+##fdbb# Cuhukhkj Styl
+fdbc  bcv**PHP: Adhere to PSRjhuihuuuuide.
+* **cvvcHTML/CS:** Usegyuggyic L5, well-orgg Cgjlock Elemenifier) methodology where appropriate.
+*   **JavacvbScript:* Fohgygbgiipt St$$dfd
+*   Ensure cbconskhukhnt indentationpaceghf/CSS/Jguhgiuhih
 ### Banch Nivcbc
 **
-vng ConventiPedekgfyuvyhjs bthe type of chgteture/oatur (eb.g., `feature/uhuhukookmark`
-  `b/isjhvjbsue-deption`x/logn-buiu
-*   `ref-a
+vng ConventiPedekgfyuvyhjs bthe typere/oatur (eb.g., `feature/uhuhukookmark`
+  `b/isjhvjbsue-deption`x/logn-bu
