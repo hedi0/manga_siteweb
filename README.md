@@ -149,21 +149,18 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
 ## 🤝 Contribution Guidelines
 
 We welcome contributions to `manga_siteweb`! Please follow these guidelines to ensure a smooth collaboration process.
-
-### Code Style
-
-*   **PHP:** Adhere to PSR-12 coding style guide.
-*   **HTML/CSS:** Usegyuggyic HTML5, well-organized Centsgyggjlock Elemenifier) methodology where appropriate.
-*   **JavaScript:** Follow AiraScript Style Guid$$.
-*   Ensure consistent indentation (4 spaces fo2 spaces for HTML/CSS/JS).
-
-### Branch Naming Conventi
-Please use desgyuvyhjks based on the type of chgte
-*   `feature/yoatur (e.g., `feature/uhuhukookmarks`)
-*   `bugfix/isjhvjbsue-deption` (e.g., `bugfix/login-
-*   `refac-of-act (e.gactor/db-nnectio
+fbd
+##fdbb# Code Style
+fdbc
+*   bcv**PHP:** Adhere to PSR-12 coding style guuide.
+*   **cvvcHTML/CSS:** Usegyuggyic HTML5, well-orggfngfanidfzed Centsgyggjlock Elemenifier) methodology where appropriate.
+*   **JavacvbScript:** Follow AiraScript Style Guid$$dfd.
+*   Ensure cbbconsistent indentation (4 spaces o2 spacebgds for HTML/CSS/JS).
+### Banch Namivcbcvng ConventiPleae use desgyuvyhjs based on the type of chgte
+* `fature/yoatur (eb.g., `feature/uhuhukookmark`
+  `bufix/isjhvjbsue-deption` (e.g., `bugfix/logn-
+*   `ref-of-act (e.gactor/db-nnectio
 *   `docs/docuon-update`
-
-### Pull Reque
-1. khbhbanch from `ma
-2.  E
+## Pull Re
+1. khbhbanc from `ma
+   
