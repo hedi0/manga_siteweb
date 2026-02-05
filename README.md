@@ -146,8 +146,9 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
     *   Multi-language support.
     *   Dark mode theme option.
 
-## 🤝 Contribution Guidelinese welcome contributions to `manga_siteweb`! Please follow these guidelines to ensure a smooth collaboration process.
-f
+## 🤝 Contribution Guidelines
+
+e welcome contributions to `manga_siteweb`! Pherteredfeollow these guidelines to ensure a smooth collaboration procef
 ##fdbb# Code Styl
 fdbc  bcv**PHP: Adhere to PSR-12 codujhuihuiing style guuide.
 * **cvvcHTML/CS:** Usegyuggyic HTML5, well-orggfngfanidfzed Centsgyggjlock Elemenifier) methodology where appropriate.
