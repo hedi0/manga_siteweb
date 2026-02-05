@@ -151,8 +151,8 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
 e me coniovvjyjto `manga_siteweb`! dfeollow sqxqsxto enxsqqsxqs a smocosqxqxlration procef
 ##fdbb# Cuhu
 fdbc  bcv**PHP: Ad
-* **cvvcHTML/CS:** Usegyuggyic L5, wexqsxqgjlock Eer) melogy whergyuguygg
-*   **Jat:* Fohgygbgii
+* **cvvcHTML/CS:** Usegyuggyic L5, wexygygy whergyuguygg
+*   **Jat:* Fohgnioijojo
 *   Ensure cbconskhukhnt indentationpaceghf/CSS/Jgu
 ### Banch Niv
-vng ConventiPedekgfyuvyhjs bthe typere/oatur (`feature/uhfdhdhghgfhfhgfhhvjbsue-deption`x/
+ (`feature/uhfdhdhghgfhfhgfhhvjbsue-deption`x/
