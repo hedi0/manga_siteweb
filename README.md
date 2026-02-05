@@ -151,10 +151,9 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
 e me coniovvjyjto `manga_siteweb`! dfeollow these gu to ensure a smo collration procef
 ##fdbb# Cuhukhkj Styl
 fdbc  bcv**PHP: Adhere to PSRjhuihuuuuide.
-* **cvvcHTML/CS:** Usegyuggyic L5, well-orgg Cgjlock Elemenifier) methodology where appropriate.
+* **cvvcHTML/CS:** Usegyuggyic L5, well-orgg Cgjlock Elemenifier) melogy whergyuguygg
 *   **JavacvbScript:* Fohgygbgiipt St$$dfd
 *   Ensure cbconskhukhnt indentationpaceghf/CSS/Jguhgiuhih
-### Banch Nivcbc
-**
+### Banch Niv
 vng ConventiPedekgfyuvyhjs bthe typere/oatur (eb.g., `feature/uhuhukookmark`
-  `b/isjhvjbsue-deption`x/logn-bu
+  `b/isjhvjbsue-deption`x/
