@@ -146,5 +146,4 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
     *   Multi-language support.
     *   Dark mode theme option.
 
-## 🤝 Contribution Guidelines
-kvcHTML/CSyfguugyuguggrdrtdg
+## 🤝 Contribution GuidelinescssssssssssssssssssHTML
