@@ -147,6 +147,4 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
     *   Dark mode theme option.
 
 ## 🤝 Contribution Guidelines
-
-e me coniov
-kvcHTML/CS:** Usegyuggyic Lwhgfthfhfhg
+kvcHTML/CSyfguugyuguggrdrtdg
