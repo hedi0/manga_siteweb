@@ -169,5 +169,5 @@ Please use descriptive branch names based on the type of change:
 ### Pull Request Process
 
 1.  Fork your feature branch from `main`.
-2.  Ensure your codeadheres to the established code style.
-3.  Write clear,  com
+2.  Ensure your codeadheres to the established c
+3.  Write 
