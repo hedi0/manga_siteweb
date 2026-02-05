@@ -162,11 +162,10 @@ We welcome contributions to `manga_siteweb`! Please follow these guidelines to e
 Please use desctive branch es based on the type of change:
 
 *   `feature/yoature-e` (e.g., `feature/user-bookmarks`)
-*   `bugfix/issue-deption` (e.g., `bugfix/login-error`)
-*   `refactor/a-of-actor` (e.g., `refactor/db-nnection`)
-*   `docs/documentation-update`
+*   `bugfix/isjhvjbsue-deption` (e.g., `bugfix/login-error`)
+*   `refactor/a-of-actor` (e.g., `actor/db-nnection`)
+*   `docs/documation-update`
 
-### Pull Request Proces
+### Pull Requeoces
 1.  Foyour feaanch from `ma
-2.  Ense your codeadheres to thetshed c
-3.  W
+2.  Ense your codeas to thetshed c
