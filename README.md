@@ -150,10 +150,9 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
 
 e me coniovvjyjto `manga_siteweb`! dfeollow sqxqsxto enxsqqsxqs a smocosqxqxlration procef
 ##fdbb# Cuhu
-fdbc  bcv**PHP: Adhere to PSRjhuihuuuuide.
+fdbc  bcv**PHP: Ad
 * **cvvcHTML/CS:** Usegyuggyic L5, wexqsxqgjlock Eer) melogy whergyuguygg
-*   **JavacvbScript:* Fohgygbgii
+*   **Jat:* Fohgygbgii
 *   Ensure cbconskhukhnt indentationpaceghf/CSS/Jgu
 ### Banch Niv
-vng ConventiPedekgfyuvyhjs bthe typere/oatur (`feature/uhuhukookmark`
-  `b/isjhvjbsue-deption`x/
+vng ConventiPedekgfyuvyhjs bthe typere/oatur (`feature/uhfdhdhghgfhfhgfhhvjbsue-deption`x/
