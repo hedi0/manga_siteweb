@@ -150,6 +150,6 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
 
 e me coniovvjyjto `
 kjbkjhkuhcvvcHTML/CS:** Usegyuggyic Lw
-* uih
-* ukhshnt inde/CSS/Jgulklij
+* bhkhhkhkhkh
+* hhoihhJgulklij
 ### Ban
