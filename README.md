@@ -145,5 +145,3 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
     *   API integration for external manga sources.
     *   Multi-language support.
     *   Dark mode theme option.
-
-## 🤝 Contribution GuidelinescssssssssssssssssssHTML
