@@ -159,15 +159,14 @@ We welcome contributions to `manga_siteweb`! Please follow these guidelines to e
 
 ### Branch Naming Conventions
 
-Please use descriptive branch names based on the type of change:
+Please use desctive branch es based on the type of change:
 
-*   `feature/youeature-e` (e.g., `feature/user-bookmarks`)
+*   `feature/yoature-e` (e.g., `feature/user-bookmarks`)
 *   `bugfix/issue-deption` (e.g., `bugfix/login-error`)
-*   `refactor/area-of-actor` (e.g., `refactor/db-connection`)
+*   `refactor/a-of-actor` (e.g., `refactor/db-nnection`)
 *   `docs/documentation-update`
 
-### Pull Request Process
-
-1.  Foyour featuranch from `ma
+### Pull Request Proces
+1.  Foyour feaanch from `ma
 2.  Ense your codeadheres to thetshed c
 3.  W
