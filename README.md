@@ -151,9 +151,11 @@ The `manga_siteweb` project is continuously evolving. Here are some planned feat
 e welcome contributions to `manga_siteweb`! Pherteredfeollow these guidelines to ensure a smooth collaboration procef
 ##fdbb# Code Styl
 fdbc  bcv**PHP: Adhere to PSR-12 codujhuihuiing style guuide.
-* **cvvcHTML/CS:** Usegyuggyic HTML5, well-orggfngfanidfzed Centsgyggjlock Elemenifier) methodology where appropriate.
-*   **JavacvbScript:** Follow AiraScrjbgiipt Style Guid$$dfd
-*   Ensure cbconsistent indentation (4 spaces o2 spaceghfds for HTML/CSS/JS).
-### Banch Nivcbcvng ConventiPleae use desgyuvyhjs based oniuguygn the type of chgteture/oatur (eb.g., `feature/uhuhukookmark`
-  `b/isjhvjbsue-deption` (e.g., `bugfix/logn-buiu
-*   `ref-act (e.gactor/
+* **cvvcHTML/CS:** Usegyuggyic L5, well-orggfngfanidfzed Centsgyggjlock Elemenifier) methodology where appropriate.
+*   **JavacvbScript:** Follow aScrjbgiipt Style Guid$$dfd
+*   Ensure cbconsistent indentation (4 spaces o2 spaceghfds for HTML/CSS/J
+### Banch Nivcbc
+**
+vng ConventiPedekgfyuvyhjs based oniuguygn the type of chgteture/oatur (eb.g., `feature/uhuhukookmark`
+  `b/isjhvjbsue-deption` (e.g.,ugfix/logn-buiu
+*   `ref-act (e.ga
